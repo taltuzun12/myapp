@@ -1,0 +1,124 @@
+/* Background colors */
+body {
+  background-color: #F5F5F5;
+}
+
+/* Main heading */
+h1 {
+  color: #337AB7;
+}
+
+/* Subheading */
+h2 {
+  color: #555;
+}
+
+/* Text color */
+p {
+  color: #333;
+}
+
+/* Link color */
+a {
+  color: #337AB7;
+}
+
+/* Button styles */
+button {
+  background-color: #337AB7;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #286090;
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #337AB7;
+  color: #FFF;
+}
+
+tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+tr:hover {
+  background-color: #DDD;
+}
+
+/* Form styles */
+input[type=text], input[type=email], input[type=password], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #337AB7;
+  color: #FFF;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #286090;
+}
+
+/* Alerts */
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Success messages */
+.success {
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Info messages */
+.info {
+  padding: 20px;
+  background-color: #2196F3;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Warning messages */
+.warning {
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Center text */
+.center {
+  text-align: center;
+}
